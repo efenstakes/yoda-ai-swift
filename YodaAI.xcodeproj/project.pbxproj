@@ -102,6 +102,7 @@
 		9C63A1CF2ADE9FC90054F61D /* YodaAI */ = {
 			isa = PBXGroup;
 			children = (
+				9C63A2062ADEA4BE0054F61D /* Views */,
 				9C63A2032ADEA3AE0054F61D /* Extensions */,
 				9C63A2002ADEA3350054F61D /* ViewModels */,
 				9C63A1FD2ADEA2D10054F61D /* Services */,
@@ -169,6 +170,13 @@
 				9C63A2042ADEA4700054F61D /* Color.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9C63A2062ADEA4BE0054F61D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
