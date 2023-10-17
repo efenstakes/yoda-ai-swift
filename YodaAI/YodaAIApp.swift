@@ -12,7 +12,7 @@ struct YodaAIApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                ContentView()
+                OnboardingView()
             }
         }
     }
