@@ -15,9 +15,12 @@
 		9C63A1EC2ADE9FCB0054F61D /* YodaAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1EB2ADE9FCB0054F61D /* YodaAIUITests.swift */; };
 		9C63A1EE2ADE9FCB0054F61D /* YodaAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1ED2ADE9FCB0054F61D /* YodaAIUITestsLaunchTests.swift */; };
 		9C63A1FC2ADE9FFB0054F61D /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1FB2ADE9FFB0054F61D /* Prompt.swift */; };
-		9C63A1FF2ADEA2FE0054F61D /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1FE2ADEA2FE0054F61D /* Prompt.swift */; };
 		9C63A2022ADEA3480054F61D /* PromptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A2012ADEA3480054F61D /* PromptViewModel.swift */; };
 		9C63A2052ADEA4700054F61D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A2042ADEA4700054F61D /* Color.swift */; };
+		9C63A2082ADEA4F10054F61D /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A2072ADEA4F10054F61D /* OnboardingView.swift */; };
+		9C63A20A2ADEA52D0054F61D /* PromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A2092ADEA52D0054F61D /* PromptView.swift */; };
+		9C63A20D2ADEA5B20054F61D /* PromptCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A20C2ADEA5B20054F61D /* PromptCard.swift */; };
+		9C63A20F2ADEA6330054F61D /* PromptService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A20E2ADEA6330054F61D /* PromptService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +52,12 @@
 		9C63A1EB2ADE9FCB0054F61D /* YodaAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaAIUITests.swift; sourceTree = "<group>"; };
 		9C63A1ED2ADE9FCB0054F61D /* YodaAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9C63A1FB2ADE9FFB0054F61D /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
-		9C63A1FE2ADEA2FE0054F61D /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		9C63A2012ADEA3480054F61D /* PromptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptViewModel.swift; sourceTree = "<group>"; };
 		9C63A2042ADEA4700054F61D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		9C63A2072ADEA4F10054F61D /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		9C63A2092ADEA52D0054F61D /* PromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptView.swift; sourceTree = "<group>"; };
+		9C63A20C2ADEA5B20054F61D /* PromptCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptCard.swift; sourceTree = "<group>"; };
+		9C63A20E2ADEA6330054F61D /* PromptService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,7 @@
 		9C63A1CF2ADE9FC90054F61D /* YodaAI */ = {
 			isa = PBXGroup;
 			children = (
+				9C63A20B2ADEA5930054F61D /* SubViews */,
 				9C63A2062ADEA4BE0054F61D /* Views */,
 				9C63A2032ADEA3AE0054F61D /* Extensions */,
 				9C63A2002ADEA3350054F61D /* ViewModels */,
@@ -151,7 +158,7 @@
 		9C63A1FD2ADEA2D10054F61D /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				9C63A1FE2ADEA2FE0054F61D /* Prompt.swift */,
+				9C63A20E2ADEA6330054F61D /* PromptService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -175,8 +182,18 @@
 		9C63A2062ADEA4BE0054F61D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				9C63A2072ADEA4F10054F61D /* OnboardingView.swift */,
+				9C63A2092ADEA52D0054F61D /* PromptView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9C63A20B2ADEA5930054F61D /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				9C63A20C2ADEA5B20054F61D /* PromptCard.swift */,
+			);
+			path = SubViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,12 +326,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C63A20A2ADEA52D0054F61D /* PromptView.swift in Sources */,
 				9C63A1D32ADE9FC90054F61D /* ContentView.swift in Sources */,
 				9C63A2022ADEA3480054F61D /* PromptViewModel.swift in Sources */,
-				9C63A1FF2ADEA2FE0054F61D /* Prompt.swift in Sources */,
 				9C63A1FC2ADE9FFB0054F61D /* Prompt.swift in Sources */,
+				9C63A20F2ADEA6330054F61D /* PromptService.swift in Sources */,
 				9C63A1D12ADE9FC90054F61D /* YodaAIApp.swift in Sources */,
+				9C63A20D2ADEA5B20054F61D /* PromptCard.swift in Sources */,
 				9C63A2052ADEA4700054F61D /* Color.swift in Sources */,
+				9C63A2082ADEA4F10054F61D /* OnboardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
