@@ -18,7 +18,6 @@ class PromptViewModel: ObservableObject {
     @Published var error: PromptError? = nil
     @Published var prompts: [Prompt] = []
     
-    
     // this function receives the users prompt as a parameter and queries yoda ai for a reply
     func getPrompt(for prompt: String) async {
         guard !prompt.isEmpty else { return }
