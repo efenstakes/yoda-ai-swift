@@ -15,6 +15,9 @@
 		9C63A1EC2ADE9FCB0054F61D /* YodaAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1EB2ADE9FCB0054F61D /* YodaAIUITests.swift */; };
 		9C63A1EE2ADE9FCB0054F61D /* YodaAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1ED2ADE9FCB0054F61D /* YodaAIUITestsLaunchTests.swift */; };
 		9C63A1FC2ADE9FFB0054F61D /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1FB2ADE9FFB0054F61D /* Prompt.swift */; };
+		9C63A1FF2ADEA2FE0054F61D /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1FE2ADEA2FE0054F61D /* Prompt.swift */; };
+		9C63A2022ADEA3480054F61D /* PromptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A2012ADEA3480054F61D /* PromptViewModel.swift */; };
+		9C63A2052ADEA4700054F61D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A2042ADEA4700054F61D /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		9C63A1EB2ADE9FCB0054F61D /* YodaAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaAIUITests.swift; sourceTree = "<group>"; };
 		9C63A1ED2ADE9FCB0054F61D /* YodaAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9C63A1FB2ADE9FFB0054F61D /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		9C63A1FE2ADEA2FE0054F61D /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		9C63A2012ADEA3480054F61D /* PromptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptViewModel.swift; sourceTree = "<group>"; };
+		9C63A2042ADEA4700054F61D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 		9C63A1CF2ADE9FC90054F61D /* YodaAI */ = {
 			isa = PBXGroup;
 			children = (
+				9C63A2032ADEA3AE0054F61D /* Extensions */,
+				9C63A2002ADEA3350054F61D /* ViewModels */,
+				9C63A1FD2ADEA2D10054F61D /* Services */,
 				9C63A1FA2ADE9FEB0054F61D /* Models */,
 				9C63A1D02ADE9FC90054F61D /* YodaAIApp.swift */,
 				9C63A1D22ADE9FC90054F61D /* ContentView.swift */,
@@ -136,6 +145,30 @@
 				9C63A1FB2ADE9FFB0054F61D /* Prompt.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		9C63A1FD2ADEA2D10054F61D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9C63A1FE2ADEA2FE0054F61D /* Prompt.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9C63A2002ADEA3350054F61D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9C63A2012ADEA3480054F61D /* PromptViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9C63A2032ADEA3AE0054F61D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9C63A2042ADEA4700054F61D /* Color.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +302,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C63A1D32ADE9FC90054F61D /* ContentView.swift in Sources */,
+				9C63A2022ADEA3480054F61D /* PromptViewModel.swift in Sources */,
+				9C63A1FF2ADEA2FE0054F61D /* Prompt.swift in Sources */,
 				9C63A1FC2ADE9FFB0054F61D /* Prompt.swift in Sources */,
 				9C63A1D12ADE9FC90054F61D /* YodaAIApp.swift in Sources */,
+				9C63A2052ADEA4700054F61D /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
