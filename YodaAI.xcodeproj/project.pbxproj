@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9C63A1D12ADE9FC90054F61D /* YodaAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1D02ADE9FC90054F61D /* YodaAIApp.swift */; };
-		9C63A1D32ADE9FC90054F61D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1D22ADE9FC90054F61D /* ContentView.swift */; };
 		9C63A1D52ADE9FCB0054F61D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C63A1D42ADE9FCB0054F61D /* Assets.xcassets */; };
 		9C63A1D82ADE9FCB0054F61D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C63A1D72ADE9FCB0054F61D /* Preview Assets.xcassets */; };
 		9C63A1E22ADE9FCB0054F61D /* YodaAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C63A1E12ADE9FCB0054F61D /* YodaAITests.swift */; };
@@ -43,7 +42,6 @@
 /* Begin PBXFileReference section */
 		9C63A1CD2ADE9FC90054F61D /* YodaAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YodaAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C63A1D02ADE9FC90054F61D /* YodaAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YodaAIApp.swift; sourceTree = "<group>"; };
-		9C63A1D22ADE9FC90054F61D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C63A1D42ADE9FCB0054F61D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C63A1D72ADE9FCB0054F61D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9C63A1DD2ADE9FCB0054F61D /* YodaAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YodaAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,7 +113,6 @@
 				9C63A1FD2ADEA2D10054F61D /* Services */,
 				9C63A1FA2ADE9FEB0054F61D /* Models */,
 				9C63A1D02ADE9FC90054F61D /* YodaAIApp.swift */,
-				9C63A1D22ADE9FC90054F61D /* ContentView.swift */,
 				9C63A1D42ADE9FCB0054F61D /* Assets.xcassets */,
 				9C63A1D62ADE9FCB0054F61D /* Preview Content */,
 			);
@@ -327,7 +324,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C63A20A2ADEA52D0054F61D /* PromptView.swift in Sources */,
-				9C63A1D32ADE9FC90054F61D /* ContentView.swift in Sources */,
 				9C63A2022ADEA3480054F61D /* PromptViewModel.swift in Sources */,
 				9C63A1FC2ADE9FFB0054F61D /* Prompt.swift in Sources */,
 				9C63A20F2ADEA6330054F61D /* PromptService.swift in Sources */,

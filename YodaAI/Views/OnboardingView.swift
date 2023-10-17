@@ -47,7 +47,6 @@ struct OnboardingView: View {
                 
                 // skip button
                 HStack {
-                    Text( hasOnboarded ? "onboarded" : "not $hasOnboarded")
                     Spacer()
                     
                     Button(action: {
